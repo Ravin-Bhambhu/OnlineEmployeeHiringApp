@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCDFFF"
+    tools:context=".Home1"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="NestedScrolling,UselessLeaf" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf">
+
+        <SearchView
+            android:layout_width="415dp"
+            android:layout_height="61dp"
+            android:inputType="text"
+            android:background="@color/white"
+            android:queryHint="Search Here"
+            android:queryBackground="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/math_bg"
+            android:layout_marginTop="60dp"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ravin_bhambhu"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android_developer"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="-160dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="-160dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5_year_exp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="50dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/yellow_bg"
+            android:layout_marginTop="30dp"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/paras_watts"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android_developer"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="-120dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="-120dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5_year_exp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="50dp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/che_bg"
+            android:layout_marginTop="30dp"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vinay_garg"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android_developer"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="-120dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="-120dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5_year_exp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="50dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bio_bg"
+            android:layout_marginTop="30dp"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/akshay"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android_developer"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="-70dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="-70dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5_year_exp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="50dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/math_bg"
+            android:layout_marginTop="30dp"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ravin_bhambhu"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android_developer"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="-160dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="-1dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5_year_exp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="50dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/yellow_bg"
+            android:layout_marginTop="30dp"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/paras_watts"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android_developer"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="-120dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="-120dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5_year_exp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="50dp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/che_bg"
+            android:layout_marginTop="30dp"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vinay_garg"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android_developer"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="-120dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="-120dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5_year_exp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="50dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bio_bg"
+            android:layout_marginTop="30dp"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            tools:ignore="UselessParent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/akshay"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android_developer"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="-70dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="-70dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5_year_exp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="50dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="770dp"
+        tools:ignore="UseCompoundDrawables"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/home"
+            android:layout_marginLeft="10dp"
+
+            android:contentDescription="@string/home"
+            android:layout_marginStart="10dp" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/home"
+            android:layout_marginTop="63dp"
+            android:layout_marginLeft="-49dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="-49dp" />
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/notification"
+            android:layout_marginLeft="110dp"
+
+            android:contentDescription="@string/notification"
+            android:layout_marginStart="110dp" />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="@string/notification"
+            android:layout_marginTop="63dp"
+            android:layout_marginLeft="-63dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="-65dp" />
+
+        <ImageView
+            android:id="@+id/img_3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/person"
+            android:layout_marginLeft="80dp"
+            android:contentDescription="@string/profile"
+            android:layout_marginStart="80dp" />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="@string/profile"
+            android:layout_marginTop="63dp"
+            android:layout_marginLeft="-48dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="-48dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
